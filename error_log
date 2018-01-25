@@ -1,0 +1,658 @@
+[16-Jul-2015 11:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /Anuncios20150716.txt in /home/anuncios/public_html/cron.php on line 5
+[16-Jul-2015 11:00:01 America/Caracas] PHP Warning:  fopen(/Anuncios20150716.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[16-Jul-2015 11:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[16-Jul-2015 11:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[17-Jul-2015 10:41:51 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150717.txt in /home/anuncios/public_html/cron.php on line 5
+[17-Jul-2015 10:41:51 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150717.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[17-Jul-2015 10:41:51 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[17-Jul-2015 10:41:51 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[17-Jul-2015 11:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /Anuncios20150717.txt in /home/anuncios/public_html/cron.php on line 5
+[17-Jul-2015 11:00:01 America/Caracas] PHP Warning:  fopen(/Anuncios20150717.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[17-Jul-2015 11:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[17-Jul-2015 11:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[17-Jul-2015 13:03:01 America/Caracas] PHP Warning:  filesize(): stat failed for /Anuncios20150717.txt in /home/anuncios/public_html/cron.php on line 5
+[17-Jul-2015 13:03:01 America/Caracas] PHP Warning:  fopen(/Anuncios20150717.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[17-Jul-2015 13:03:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[17-Jul-2015 13:03:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[17-Jul-2015 20:15:23 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE), expecting '(' in /home/anuncios/public_html/ventas.php on line 207
+[17-Jul-2015 20:42:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'unit_price invalid' in /home/anuncios/public_html/lib/mercadopago.php:373
+Stack trace:
+#0 /home/anuncios/public_html/lib/mercadopago.php(386): MPRestClient::exec('POST', '/checkout/prefe...', Array, 'application/jso...')
+#1 /home/anuncios/public_html/lib/mercadopago.php(161): MPRestClient::post('/checkout/prefe...', Array)
+#2 /home/anuncios/public_html/pagar.php(42): MP->create_preference(Array)
+#3 {main}
+  thrown in /home/anuncios/public_html/lib/mercadopago.php on line 373
+[17-Jul-2015 20:52:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/ventasGrafica.php on line 9
+[19-Jul-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150719.txt in /home/anuncios/public_html/cron.php on line 5
+[19-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150719.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[19-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[19-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[20-Jul-2015 19:33:14 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/anuncios/public_html/avisoCrear.php on line 5
+[20-Jul-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150720.txt in /home/anuncios/public_html/cron.php on line 5
+[20-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150720.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[20-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[20-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[21-Jul-2015 11:54:16 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[21-Jul-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150721.txt in /home/anuncios/public_html/cron.php on line 5
+[21-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150721.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[21-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[21-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[22-Jul-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150722.txt in /home/anuncios/public_html/cron.php on line 5
+[22-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150722.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[22-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[22-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[23-Jul-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150723.txt in /home/anuncios/public_html/cron.php on line 5
+[23-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150723.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[23-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[23-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[26-Jul-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150726.txt in /home/anuncios/public_html/cron.php on line 5
+[26-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150726.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[26-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[26-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[27-Jul-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150727.txt in /home/anuncios/public_html/cron.php on line 5
+[27-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150727.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[27-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[27-Jul-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[04-Aug-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150804.txt in /home/anuncios/public_html/cron.php on line 5
+[04-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150804.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[04-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[04-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[07-Aug-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150807.txt in /home/anuncios/public_html/cron.php on line 5
+[07-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150807.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[07-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[07-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[09-Aug-2015 00:29:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[12-Aug-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150812.txt in /home/anuncios/public_html/cron.php on line 5
+[12-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150812.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[12-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[12-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[12-Aug-2015 22:52:48 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[13-Aug-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150813.txt in /home/anuncios/public_html/cron.php on line 5
+[13-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150813.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[13-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[13-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[14-Aug-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150814.txt in /home/anuncios/public_html/cron.php on line 5
+[14-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150814.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[14-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[14-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[15-Aug-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150815.txt in /home/anuncios/public_html/cron.php on line 5
+[15-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150815.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[15-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[15-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[16-Aug-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150816.txt in /home/anuncios/public_html/cron.php on line 5
+[16-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150816.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[16-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[16-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[19-Aug-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150819.txt in /home/anuncios/public_html/cron.php on line 5
+[19-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150819.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[19-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[19-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[20-Aug-2015 16:14:46 UTC] PHP Parse error:  syntax error, unexpected '$resultadoUsuario' (T_VARIABLE) in /home/anuncios/public_html/ventas.php on line 199
+[20-Aug-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150820.txt in /home/anuncios/public_html/cron.php on line 5
+[20-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150820.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[20-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[20-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[21-Aug-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150821.txt in /home/anuncios/public_html/cron.php on line 5
+[21-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150821.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[21-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[21-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[23-Aug-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150823.txt in /home/anuncios/public_html/cron.php on line 5
+[23-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150823.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[23-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[23-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[25-Aug-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150825.txt in /home/anuncios/public_html/cron.php on line 5
+[25-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150825.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[25-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[25-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[27-Aug-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150827.txt in /home/anuncios/public_html/cron.php on line 5
+[27-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150827.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[27-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[27-Aug-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[30-Aug-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150830.txt in /home/anuncios/public_html/cron.php on line 5
+[30-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150830.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[30-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[30-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[31-Aug-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150831.txt in /home/anuncios/public_html/cron.php on line 5
+[31-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150831.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[31-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[31-Aug-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[02-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150902.txt in /home/anuncios/public_html/cron.php on line 5
+[02-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150902.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[02-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[02-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[03-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150903.txt in /home/anuncios/public_html/cron.php on line 5
+[03-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150903.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[03-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[03-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[04-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150904.txt in /home/anuncios/public_html/cron.php on line 5
+[04-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150904.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[04-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[04-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[05-Sep-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150905.txt in /home/anuncios/public_html/cron.php on line 5
+[05-Sep-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150905.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[05-Sep-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[05-Sep-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[06-Sep-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150906.txt in /home/anuncios/public_html/cron.php on line 5
+[06-Sep-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150906.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[06-Sep-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[06-Sep-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[08-Sep-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150908.txt in /home/anuncios/public_html/cron.php on line 5
+[08-Sep-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150908.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[08-Sep-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[08-Sep-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[09-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150909.txt in /home/anuncios/public_html/cron.php on line 5
+[09-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150909.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[09-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[09-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[11-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150911.txt in /home/anuncios/public_html/cron.php on line 5
+[11-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150911.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[11-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[11-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[12-Sep-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150912.txt in /home/anuncios/public_html/cron.php on line 5
+[12-Sep-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150912.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[12-Sep-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[12-Sep-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[13-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150913.txt in /home/anuncios/public_html/cron.php on line 5
+[13-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150913.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[13-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[13-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[14-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150914.txt in /home/anuncios/public_html/cron.php on line 5
+[14-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150914.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[14-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[14-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[15-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150915.txt in /home/anuncios/public_html/cron.php on line 5
+[15-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150915.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[15-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[15-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[18-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150918.txt in /home/anuncios/public_html/cron.php on line 5
+[18-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150918.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[18-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[18-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[19-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150919.txt in /home/anuncios/public_html/cron.php on line 5
+[19-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150919.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[19-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[19-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[20-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150920.txt in /home/anuncios/public_html/cron.php on line 5
+[20-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150920.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[20-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[20-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[25-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150925.txt in /home/anuncios/public_html/cron.php on line 5
+[25-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150925.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[25-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[25-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[26-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150926.txt in /home/anuncios/public_html/cron.php on line 5
+[26-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150926.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[26-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[26-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[26-Sep-2015 23:41:57 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[27-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150927.txt in /home/anuncios/public_html/cron.php on line 5
+[27-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150927.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[27-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[27-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[28-Sep-2015 10:47:07 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[30-Sep-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20150930.txt in /home/anuncios/public_html/cron.php on line 5
+[30-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20150930.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[30-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[30-Sep-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[03-Oct-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151003.txt in /home/anuncios/public_html/cron.php on line 5
+[03-Oct-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151003.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[03-Oct-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[03-Oct-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[04-Oct-2015 05:27:23 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[06-Oct-2015 16:00:06 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151006.txt in /home/anuncios/public_html/cron.php on line 5
+[06-Oct-2015 16:00:06 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151006.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[06-Oct-2015 16:00:06 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[06-Oct-2015 16:00:06 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[10-Oct-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151010.txt in /home/anuncios/public_html/cron.php on line 5
+[10-Oct-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151010.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[10-Oct-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[10-Oct-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[12-Oct-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151012.txt in /home/anuncios/public_html/cron.php on line 5
+[12-Oct-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151012.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[12-Oct-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[12-Oct-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[18-Oct-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151018.txt in /home/anuncios/public_html/cron.php on line 5
+[18-Oct-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151018.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[18-Oct-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[18-Oct-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[25-Oct-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151025.txt in /home/anuncios/public_html/cron.php on line 5
+[25-Oct-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151025.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[25-Oct-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[25-Oct-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[29-Oct-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151029.txt in /home/anuncios/public_html/cron.php on line 5
+[29-Oct-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151029.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[29-Oct-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[29-Oct-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[31-Oct-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151031.txt in /home/anuncios/public_html/cron.php on line 5
+[31-Oct-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151031.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[31-Oct-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[31-Oct-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[01-Nov-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151101.txt in /home/anuncios/public_html/cron.php on line 5
+[01-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151101.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[01-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[01-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[03-Nov-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151103.txt in /home/anuncios/public_html/cron.php on line 5
+[03-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151103.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[03-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[03-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[07-Nov-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151107.txt in /home/anuncios/public_html/cron.php on line 5
+[07-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151107.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[07-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[07-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[08-Nov-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151108.txt in /home/anuncios/public_html/cron.php on line 5
+[08-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151108.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[08-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[08-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[09-Nov-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151109.txt in /home/anuncios/public_html/cron.php on line 5
+[09-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151109.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[09-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[09-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[16-Nov-2015 18:30:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[16-Nov-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151116.txt in /home/anuncios/public_html/cron.php on line 5
+[16-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151116.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[16-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[16-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[20-Nov-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151120.txt in /home/anuncios/public_html/cron.php on line 5
+[20-Nov-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151120.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[20-Nov-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[20-Nov-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[21-Nov-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151121.txt in /home/anuncios/public_html/cron.php on line 5
+[21-Nov-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151121.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[21-Nov-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[21-Nov-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[26-Nov-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151126.txt in /home/anuncios/public_html/cron.php on line 5
+[26-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151126.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[26-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[26-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[28-Nov-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151128.txt in /home/anuncios/public_html/cron.php on line 5
+[28-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151128.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[28-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[28-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[29-Nov-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151129.txt in /home/anuncios/public_html/cron.php on line 5
+[29-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151129.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[29-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[29-Nov-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[05-Dec-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151205.txt in /home/anuncios/public_html/cron.php on line 5
+[05-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151205.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[05-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[05-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[06-Dec-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151206.txt in /home/anuncios/public_html/cron.php on line 5
+[06-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151206.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[06-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[06-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[07-Dec-2015 20:00:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[11-Dec-2015 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151211.txt in /home/anuncios/public_html/cron.php on line 5
+[11-Dec-2015 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151211.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[11-Dec-2015 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[11-Dec-2015 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[13-Dec-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151213.txt in /home/anuncios/public_html/cron.php on line 5
+[13-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151213.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[13-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[13-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[15-Dec-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151215.txt in /home/anuncios/public_html/cron.php on line 5
+[15-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151215.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[15-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[15-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[17-Dec-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151217.txt in /home/anuncios/public_html/cron.php on line 5
+[17-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151217.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[17-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[17-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[20-Dec-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151220.txt in /home/anuncios/public_html/cron.php on line 5
+[20-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151220.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[20-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[20-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[21-Dec-2015 19:22:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[22-Dec-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151222.txt in /home/anuncios/public_html/cron.php on line 5
+[22-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151222.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[22-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[22-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[23-Dec-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151223.txt in /home/anuncios/public_html/cron.php on line 5
+[23-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151223.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[23-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[23-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[24-Dec-2015 12:04:22 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[25-Dec-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151225.txt in /home/anuncios/public_html/cron.php on line 5
+[25-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151225.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[25-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[25-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[26-Dec-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151226.txt in /home/anuncios/public_html/cron.php on line 5
+[26-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151226.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[26-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[26-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[31-Dec-2015 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20151231.txt in /home/anuncios/public_html/cron.php on line 5
+[31-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20151231.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[31-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[31-Dec-2015 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[01-Jan-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160101.txt in /home/anuncios/public_html/cron.php on line 5
+[01-Jan-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160101.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[01-Jan-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[01-Jan-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[02-Jan-2016 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160102.txt in /home/anuncios/public_html/cron.php on line 5
+[02-Jan-2016 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160102.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[02-Jan-2016 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[02-Jan-2016 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[06-Jan-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160106.txt in /home/anuncios/public_html/cron.php on line 5
+[06-Jan-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160106.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[06-Jan-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[06-Jan-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[09-Jan-2016 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160109.txt in /home/anuncios/public_html/cron.php on line 5
+[09-Jan-2016 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160109.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[09-Jan-2016 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[09-Jan-2016 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[10-Jan-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160110.txt in /home/anuncios/public_html/cron.php on line 5
+[10-Jan-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160110.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[10-Jan-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[10-Jan-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[14-Jan-2016 14:10:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[19-Jan-2016 12:51:33 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[24-Jan-2016 18:50:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[25-Jan-2016 16:19:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[30-Jan-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160130.txt in /home/anuncios/public_html/cron.php on line 5
+[30-Jan-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160130.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[30-Jan-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[30-Jan-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[02-Feb-2016 15:32:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[06-Feb-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160206.txt in /home/anuncios/public_html/cron.php on line 5
+[06-Feb-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160206.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[06-Feb-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[06-Feb-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[07-Feb-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160207.txt in /home/anuncios/public_html/cron.php on line 5
+[07-Feb-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160207.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[07-Feb-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[07-Feb-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[09-Feb-2016 16:00:03 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160209.txt in /home/anuncios/public_html/cron.php on line 5
+[09-Feb-2016 16:00:03 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160209.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[09-Feb-2016 16:00:03 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[09-Feb-2016 16:00:03 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[20-Feb-2016 20:45:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[29-Feb-2016 19:02:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[05-Mar-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160305.txt in /home/anuncios/public_html/cron.php on line 5
+[05-Mar-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160305.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[05-Mar-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[05-Mar-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[14-Mar-2016 01:23:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[14-Mar-2016 01:23:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[15-Mar-2016 18:49:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[15-Mar-2016 18:49:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[16-Mar-2016 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160316.txt in /home/anuncios/public_html/cron.php on line 5
+[16-Mar-2016 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160316.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[16-Mar-2016 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[16-Mar-2016 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[19-Mar-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160319.txt in /home/anuncios/public_html/cron.php on line 5
+[19-Mar-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160319.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[19-Mar-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[19-Mar-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[20-Mar-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160320.txt in /home/anuncios/public_html/cron.php on line 5
+[20-Mar-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160320.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[20-Mar-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[20-Mar-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[24-Mar-2016 18:36:00 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[24-Mar-2016 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160324.txt in /home/anuncios/public_html/cron.php on line 5
+[24-Mar-2016 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160324.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[24-Mar-2016 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[24-Mar-2016 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[26-Mar-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160326.txt in /home/anuncios/public_html/cron.php on line 5
+[26-Mar-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160326.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[26-Mar-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[26-Mar-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[29-Mar-2016 20:10:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[05-Apr-2016 23:49:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[05-Apr-2016 23:49:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[11-Apr-2016 17:46:40 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[11-Apr-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160411.txt in /home/anuncios/public_html/cron.php on line 5
+[11-Apr-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160411.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[11-Apr-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[11-Apr-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[13-Apr-2016 08:10:47 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[17-Apr-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160417.txt in /home/anuncios/public_html/cron.php on line 5
+[17-Apr-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160417.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[17-Apr-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[17-Apr-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[18-Apr-2016 16:04:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[20-Apr-2016 20:18:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[29-Apr-2016 01:40:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[02-May-2016 18:56:14 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[07-May-2016 18:52:54 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[07-May-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160507.txt in /home/anuncios/public_html/cron.php on line 5
+[07-May-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160507.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[07-May-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[07-May-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[08-May-2016 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160508.txt in /home/anuncios/public_html/cron.php on line 5
+[08-May-2016 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160508.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[08-May-2016 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[08-May-2016 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[09-May-2016 03:15:25 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[28-May-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160528.txt in /home/anuncios/public_html/cron.php on line 5
+[28-May-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160528.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[28-May-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[28-May-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[29-May-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160529.txt in /home/anuncios/public_html/cron.php on line 5
+[29-May-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160529.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[29-May-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[29-May-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[08-Jun-2016 14:56:53 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/ventas.php on line 204
+[08-Jun-2016 14:56:53 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/ventas.php on line 204
+[08-Jun-2016 14:56:54 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/ventas.php on line 204
+[08-Jun-2016 14:56:54 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/ventas.php on line 204
+[08-Jun-2016 14:56:54 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/ventas.php on line 204
+[11-Jun-2016 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160611.txt in /home/anuncios/public_html/cron.php on line 5
+[11-Jun-2016 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160611.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[11-Jun-2016 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[11-Jun-2016 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[18-Jun-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160618.txt in /home/anuncios/public_html/cron.php on line 5
+[18-Jun-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160618.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[18-Jun-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[18-Jun-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[24-Jun-2016 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160624.txt in /home/anuncios/public_html/cron.php on line 5
+[24-Jun-2016 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160624.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[24-Jun-2016 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[24-Jun-2016 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[25-Jun-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160625.txt in /home/anuncios/public_html/cron.php on line 5
+[25-Jun-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160625.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[25-Jun-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[25-Jun-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[26-Jun-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160626.txt in /home/anuncios/public_html/cron.php on line 5
+[26-Jun-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160626.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[26-Jun-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[26-Jun-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[29-Jun-2016 11:14:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[29-Jun-2016 11:14:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[29-Jun-2016 11:17:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[29-Jun-2016 11:17:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[02-Jul-2016 16:00:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160702.txt in /home/anuncios/public_html/cron.php on line 5
+[02-Jul-2016 16:00:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160702.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[02-Jul-2016 16:00:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[02-Jul-2016 16:00:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[07-Jul-2016 02:25:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[07-Jul-2016 02:25:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[15-Jul-2016 01:08:05 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[28-Jul-2016 03:40:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[31-Jul-2016 16:09:17 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[03-Aug-2016 14:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[05-Aug-2016 16:00:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160805.txt in /home/anuncios/public_html/cron.php on line 5
+[05-Aug-2016 16:00:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160805.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[05-Aug-2016 16:00:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[05-Aug-2016 16:00:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[07-Aug-2016 13:02:50 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[09-Aug-2016 16:43:05 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[09-Aug-2016 22:05:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[14-Aug-2016 06:31:44 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[15-Aug-2016 03:06:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[16-Aug-2016 15:58:52 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[20-Aug-2016 00:50:45 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[21-Aug-2016 11:42:01 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[24-Aug-2016 04:56:46 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[26-Aug-2016 12:47:54 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[29-Aug-2016 01:40:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[29-Aug-2016 01:40:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[30-Aug-2016 14:42:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[06-Sep-2016 15:08:09 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[07-Sep-2016 12:24:40 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[11-Sep-2016 03:11:14 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[18-Sep-2016 15:30:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160918.txt in /home/anuncios/public_html/cron.php on line 5
+[18-Sep-2016 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160918.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[18-Sep-2016 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[18-Sep-2016 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[24-Sep-2016 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20160924.txt in /home/anuncios/public_html/cron.php on line 5
+[24-Sep-2016 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20160924.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[24-Sep-2016 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[24-Sep-2016 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[01-Oct-2016 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20161001.txt in /home/anuncios/public_html/cron.php on line 5
+[01-Oct-2016 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20161001.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[01-Oct-2016 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[01-Oct-2016 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[08-Oct-2016 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20161008.txt in /home/anuncios/public_html/cron.php on line 5
+[08-Oct-2016 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20161008.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[08-Oct-2016 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[08-Oct-2016 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[09-Oct-2016 15:30:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20161009.txt in /home/anuncios/public_html/cron.php on line 5
+[09-Oct-2016 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20161009.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[09-Oct-2016 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[09-Oct-2016 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[03-Nov-2016 12:17:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[04-Nov-2016 15:30:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20161104.txt in /home/anuncios/public_html/cron.php on line 5
+[04-Nov-2016 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20161104.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[04-Nov-2016 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[04-Nov-2016 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[14-Nov-2016 05:59:04 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[09-Dec-2016 02:07:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[11-Dec-2016 15:30:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20161211.txt in /home/anuncios/public_html/cron.php on line 5
+[11-Dec-2016 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20161211.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[11-Dec-2016 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[11-Dec-2016 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[17-Dec-2016 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20161217.txt in /home/anuncios/public_html/cron.php on line 5
+[17-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20161217.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[17-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[17-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[23-Dec-2016 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20161223.txt in /home/anuncios/public_html/cron.php on line 5
+[23-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20161223.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[23-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[23-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[24-Dec-2016 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20161224.txt in /home/anuncios/public_html/cron.php on line 5
+[24-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20161224.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[24-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[24-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[25-Dec-2016 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20161225.txt in /home/anuncios/public_html/cron.php on line 5
+[25-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20161225.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[25-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[25-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[29-Dec-2016 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20161229.txt in /home/anuncios/public_html/cron.php on line 5
+[29-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20161229.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[29-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[29-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[31-Dec-2016 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20161231.txt in /home/anuncios/public_html/cron.php on line 5
+[31-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20161231.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[31-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[31-Dec-2016 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[07-Jan-2017 15:30:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170107.txt in /home/anuncios/public_html/cron.php on line 5
+[07-Jan-2017 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170107.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[07-Jan-2017 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[07-Jan-2017 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[08-Jan-2017 15:30:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170108.txt in /home/anuncios/public_html/cron.php on line 5
+[08-Jan-2017 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170108.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[08-Jan-2017 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[08-Jan-2017 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[02-Feb-2017 06:07:48 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[05-Feb-2017 17:02:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[10-Feb-2017 00:59:28 UTC] PHP Warning:  Unknown: write failed: Disk quota exceeded (122) in Unknown on line 0
+[10-Feb-2017 00:59:28 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[09-Feb-2017 20:33:49 America/Caracas] PHP Warning:  Unknown: write failed: Disk quota exceeded (122) in Unknown on line 0
+[09-Feb-2017 20:33:49 America/Caracas] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[09-Feb-2017 20:35:59 America/Caracas] PHP Warning:  Unknown: write faile[12-Feb-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170212.txt in /home/anuncios/public_html/cron.php on line 5
+[12-Feb-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170212.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[12-Feb-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[12-Feb-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[13-Feb-2017 22:20:45 America/Caracas] PHP Warning:  Unknown: write failed: Disk quota exceeded (122) in Unknown on line 0
+[13-Feb-2017 22:20:45 America/Caracas] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[13-Feb-2017 22:22:17 America/Caracas] PHP Warning:  Unknown: write failed: Disk quota exceeded (122) in Unknown on line 0
+[13-Feb-2017 22:22:17 America/Caracas] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[13-Feb-2017 22:58:09 America/Caracas] PHP Warning:  Unknown: write failed: Disk quota exceeded (122) in Unknown on line 0
+[13-Feb-2017 22:58:09 America/Caracas] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[13-Feb-2017 23:02:13 America/Caracas] PHP Warning:  Unknown: write failed: Disk quota exceeded (122) in Unknown on line 0
+[13-Feb-2017 23:02:13 America/Caracas] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[16-Feb-2017 23:10:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[16-Feb-2017 23:10:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[25-Feb-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170225.txt in /home/anuncios/public_html/cron.php on line 5
+[25-Feb-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170225.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[25-Feb-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[25-Feb-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[05-Mar-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170305.txt in /home/anuncios/public_html/cron.php on line 5
+[05-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170305.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[05-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[05-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[11-Mar-2017 15:30:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170311.txt in /home/anuncios/public_html/cron.php on line 5
+[11-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170311.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[11-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[11-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[12-Mar-2017 15:30:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170312.txt in /home/anuncios/public_html/cron.php on line 5
+[12-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170312.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[12-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[12-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[18-Mar-2017 15:30:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170318.txt in /home/anuncios/public_html/cron.php on line 5
+[18-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170318.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[18-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[18-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[19-Mar-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170319.txt in /home/anuncios/public_html/cron.php on line 5
+[19-Mar-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170319.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[19-Mar-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[19-Mar-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[26-Mar-2017 15:30:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170326.txt in /home/anuncios/public_html/cron.php on line 5
+[26-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170326.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[26-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[26-Mar-2017 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[10-Apr-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170410.txt in /home/anuncios/public_html/cron.php on line 5
+[10-Apr-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170410.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[10-Apr-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[10-Apr-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[23-Apr-2017 08:21:43 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[30-Apr-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170430.txt in /home/anuncios/public_html/cron.php on line 5
+[30-Apr-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170430.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[30-Apr-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[30-Apr-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[01-May-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170501.txt in /home/anuncios/public_html/cron.php on line 5
+[01-May-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170501.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[01-May-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[01-May-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[07-May-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170507.txt in /home/anuncios/public_html/cron.php on line 5
+[07-May-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170507.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[07-May-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[07-May-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[14-May-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170514.txt in /home/anuncios/public_html/cron.php on line 5
+[14-May-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170514.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[14-May-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[14-May-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[20-May-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170520.txt in /home/anuncios/public_html/cron.php on line 5
+[20-May-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170520.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[20-May-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[20-May-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[21-May-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170521.txt in /home/anuncios/public_html/cron.php on line 5
+[21-May-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170521.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[21-May-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[21-May-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[10-Jun-2017 23:42:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[18-Jun-2017 15:30:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170618.txt in /home/anuncios/public_html/cron.php on line 5
+[18-Jun-2017 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170618.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[18-Jun-2017 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[18-Jun-2017 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[20-Jun-2017 02:26:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/anuncios/public_html/header.php:91) in /home/anuncios/public_html/perfil.php on line 102
+[24-Jun-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170624.txt in /home/anuncios/public_html/cron.php on line 5
+[24-Jun-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170624.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[24-Jun-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[24-Jun-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[09-Jul-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170709.txt in /home/anuncios/public_html/cron.php on line 5
+[09-Jul-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170709.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[09-Jul-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[09-Jul-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[11-Jul-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170711.txt in /home/anuncios/public_html/cron.php on line 5
+[11-Jul-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170711.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[11-Jul-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[11-Jul-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[12-Jul-2017 05:56:34 UTC] PHP Fatal error:  Class 'PDOStatement' not found in /home/anuncios/public_html/lib/class.sentencias.php on line 14
+[23-Jul-2017 15:30:01 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170723.txt in /home/anuncios/public_html/cron.php on line 5
+[23-Jul-2017 15:30:01 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170723.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[23-Jul-2017 15:30:01 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[23-Jul-2017 15:30:01 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8
+[19-Aug-2017 15:30:02 America/Caracas] PHP Warning:  filesize(): stat failed for /home/anuncios/public_html/Anuncios20170819.txt in /home/anuncios/public_html/cron.php on line 5
+[19-Aug-2017 15:30:02 America/Caracas] PHP Warning:  fopen(/home/anuncios/public_html/Anuncios20170819.txt): failed to open stream: No such file or directory in /home/anuncios/public_html/cron.php on line 6
+[19-Aug-2017 15:30:02 America/Caracas] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 7
+[19-Aug-2017 15:30:02 America/Caracas] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/anuncios/public_html/cron.php on line 8

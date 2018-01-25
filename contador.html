@@ -1,0 +1,38 @@
+ <html>
+<head>
+<title>Textarea Characters, Words Counter and Characters Limitation</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.textareaCounter.plugin.js" type="text/javascript"></script>
+<script type="text/javascript">
+var info;
+$(document).ready(function(){
+var options3 = {
+'maxCharacterSize': 200,
+'originalStyle': 'originalTextareaInfo',
+'warningStyle' : 'warningTextareaInfo',
+'warningNumber': 40,
+'displayFormat' : '#left Caracteres restantes / #max'
+};
+var palabra_maxima =25;
+$('#testTextarea3').textareaCount(options3, function(data){
+$('#showData').html(data.input + " Cantidad Caracteres. &nbsp;" + data.max + " Max. Caracteres. &nbsp;" + data.words + " Cantidad Palabras.");
+$('#showData2').html(data.max + " Caracteres Max. &nbsp;" + data.words + " Cantidad Palabras.");
+$('#cant_palabra').val(data.words);
+    var cant = data.words;
+    //  console.log(cant);
+    if (cant > palabra_maxima) {
+        $('#showData2').addClass("letras_aviso");
+    } else {
+        $('#showData2').removeClass("letras_aviso");
+    }
+});
+});
+</script>
+</head>
+<body>
+<textarea id="testTextarea3" cols="70" rows="10"></textarea>
+<div id="showData"></div>
+<div id="showData" style="color: #000000;"></div>
+<div id="showData2" style="color: #000000"></div>
+</body>
+</html>
